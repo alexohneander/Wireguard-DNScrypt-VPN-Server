@@ -197,7 +197,7 @@ https://gitlab.com/zzzkeil/Wireguard-DNScrypt-VPN-Server
 curl -o add_client.sh https://codeberg.org/zzzkeil/Wireguard-DNScrypt-VPN-Server/raw/branch/master/tools/add_client.sh
 curl -o remove_client.sh https://codeberg.org/zzzkeil/Wireguard-DNScrypt-VPN-Server/raw/branch/master/tools/remove_client.sh
 curl -o wg_config_backup.sh https://codeberg.org/zzzkeil/Wireguard-DNScrypt-VPN-Server/raw/branch/master/tools/wg_config_backup.sh
-curl -o wg_config_restore.sh https://codeberg.org/zzzkeil/Wireguard-DNScrypt-VPN-Server/src/branch/master/tools/wg_config_restore.sh
+curl -o wg_config_restore.sh https://codeberg.org/zzzkeil/Wireguard-DNScrypt-VPN-Server/raw/branch/master/tools/wg_config_restore.sh
 curl -o uninstaller_back_to_base.sh https://codeberg.org/zzzkeil/Wireguard-DNScrypt-VPN-Server/raw/branch/master/tools/uninstaller_back_to_base.sh
 chmod +x remove_client.sh
 chmod +x wg_config_backup.sh
