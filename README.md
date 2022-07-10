@@ -60,24 +60,3 @@ run ./add_client.sh or ./remove_client.sh
 run ./wg_config_backup.sh or ./wg_config_restore.sh
 ```
 -----------------------------------------
-
-
-# Other repository : Wireguard-tor-server gateway
-
-https://gitlab.com/zzzkeil/wireguard-dnscrypt-tor-server 
-
-** project target
-
-    encrypted wireguard vpn connection to server
-    all traffic from wireguard clients will go over tor network
-    dns nameresulotion over dnscrypt (Anonymized DNS) with blocklists
-    onion (darknet) nameresulotion over dnscrypt forward to tor
-
-
-###### BETA ----  Server x86 - Debian 11 and Ubuntu 20.04 / 22.04  :
-```
-wget -O  beta-wireguard-tor-dnscrypt_blocklist_x86.sh https://gitlab.com/zzzkeil/wireguard-dnscrypt-tor-server/-/raw/main/debian_ubuntu/wireguard-tor-dnscrypt_blocklist_x86.sh
-chmod +x beta-wireguard-tor-dnscrypt_blocklist_x86.sh
-./beta-wireguard-tor-dnscrypt_blocklist_x86.sh
-```
-
