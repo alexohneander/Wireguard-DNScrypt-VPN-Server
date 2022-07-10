@@ -390,7 +390,7 @@ systemctl enable unbound
 systemctl enable wg-quick@wg0.service
 systemctl start wg-quick@wg0.service
 cp /etc/systemd/system/multi-user.target.wants/unbound.service /root/script_backupfiles/unbound.service.orig
-curl -o /lib/systemd/system/unbound.service https://codeberg.org/zzzkeil/Wireguard-DNScrypt-VPN-Server/src/branch/master/configs/unbound.service
+curl -o /lib/systemd/system/unbound.service https://codeberg.org/zzzkeil/Wireguard-DNScrypt-VPN-Server/raw/branch/master/configs/unbound.service
 systemctl disable unbound
 systemctl enable unbound
 /etc/dnscrypt-proxy/dnscrypt-proxy -service install
