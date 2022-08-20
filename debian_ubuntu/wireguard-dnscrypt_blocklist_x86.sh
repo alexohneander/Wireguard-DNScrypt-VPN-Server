@@ -16,7 +16,7 @@ echo -e " ${GRAYB}##############################################################
 echo -e " ${GRAYB}#${ENDCOLOR} ${GREEN}Wireguard-DNScrypt-VPN-Server setup script for Debian 11 and Ubuntu 20.04  ${ENDCOLOR}${GRAYB}#${ENDCOLOR}"
 echo -e " ${GRAYB}#${ENDCOLOR} ${GREEN}My base_setup.sh script is needed to setup this script correctly!!         ${ENDCOLOR}${GRAYB}#${ENDCOLOR}"
 echo -e " ${GRAYB}#${ENDCOLOR} ${GREEN}If not installed, a automatic download starts, then follow the instructions${ENDCOLOR}${GRAYB}#${ENDCOLOR}"
-echo -e " ${GRAYB}#${ENDCOLOR} ${GREEN}More info: https://codeberg.org/zzzkeil/Wireguard-DNScrypt-VPN-Server      ${ENDCOLOR}${GRAYB}#${ENDCOLOR}"
+echo -e " ${GRAYB}#${ENDCOLOR} ${GREEN}More info: https://github.com/alexohneander/Wireguard-DNScrypt-VPN-Server     ${ENDCOLOR}${GRAYB}#${ENDCOLOR}"
 echo -e " ${GRAYB}##############################################################################${ENDCOLOR}"
 echo -e " ${GRAYB}#${ENDCOLOR}                 Version 2022.05.06 - changelog on codeberg                 ${GRAYB}#${ENDCOLOR}"
 echo -e " ${GRAYB}##############################################################################${ENDCOLOR}"
