@@ -194,7 +194,7 @@ https://github.com/alexohneander/Wireguard-DNScrypt-VPN-Server
 " > /root/Wireguard-DNScrypt-VPN-Server.README
 
 
-curl -o add_client.sh https://github.com/alexohneander/Wireguard-DNScrypt-VPN-Server/raw/branch/master/tools/add_client.sh
+curl -o add_client.sh https://raw.githubusercontent.com/alexohneander/Wireguard-DNScrypt-VPN-Server/main/tools/add_client.sh
 curl -o remove_client.sh https://github.com/alexohneander/Wireguard-DNScrypt-VPN-Server/raw/branch/main/tools/remove_client.sh
 curl -o wg_config_backup.sh https://github.com/alexohneander/Wireguard-DNScrypt-VPN-Server/raw/branch/main/tools/wg_config_backup.sh
 curl -o wg_config_restore.sh https://github.com/alexohneander/Wireguard-DNScrypt-VPN-Server/raw/branch/main/tools/wg_config_restore.sh
